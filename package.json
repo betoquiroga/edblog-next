@@ -8,9 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "ed-grid": "^2.9.0",
     "edteam-style-guides": "^0.0.63",
     "next": "9.3.1",
+    "next-seo": "^4.4.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "sass": "^1.26.3"
