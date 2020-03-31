@@ -28,7 +28,7 @@ const Home = ({ posts }) => (
       }}
     />
     <main>
-      <h1>EDblog</h1> 
+      <h1>EDblog conectado con GitHub</h1> 
       <div className="ed-grid m-grid-3 row-gap">
         {
           posts.map(p => <Post key={p.id} post={p} /> )
