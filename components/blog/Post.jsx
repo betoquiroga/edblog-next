@@ -6,7 +6,7 @@ const Post = ({ post }) => (
     <h2>{post.title}</h2>
     <p>{post.body}</p>
     <span>{`Escrito por el usuario ${post.userId}`}</span>
-    <Link  href={`/blog/${post.id}`}><a>Leer más</a></Link>
+    <Link href="/blog/[id]" as={`/blog/${post.id}`}><a>Leer más</a></Link>
   </article>
 )
 
